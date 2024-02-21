@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+.wrapper h1{
+  color: white;
+  margin: 18px 0px;
+}
+button{
+  height: 30px;
+  width: 140px;
+  font-size: 15px;
+  background-color: palevioletred;
+  border: 2px solid palevioletred;
+  border-radius:5px ;
+  cursor: pointer;
+}
